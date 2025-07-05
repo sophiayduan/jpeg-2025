@@ -1,28 +1,37 @@
 body{
     text-align:center;
-    height:100vh;
-    /* background-color: black; */
-    padding-top:4rem;
     font-family:Inter;
-
+    /* background-color:aliceblue;
+    color:brown; */
+    
 }
 
-div {
-    width:100px;
-    height:50px;
-}
+
 
 img {
     border-radius:10px;
+    border:4px black dashed;
+        box-shadow: 10px 20px 5px  rgba(0, 0, 0, 0.277);
+
 }
 
-a:hover {
+ul{
+    list-style-type: none;
+}
+#this:hover {
     font-size:110%;
+    color:black;
 }
 
-a {
+#this  {
     text-decoration:none;
-    transition: font-size 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     color:red;
+    background-color:antiquewhite;
+    padding:1rem 2rem;
+    border-radius:50px;
+    display: inline-block;
+    margin-top: 2rem;
 
 }
+
